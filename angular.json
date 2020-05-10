@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "data-child-to-parent-component-app1"
+    }
+  },
+  "defaultProject": "data-child-to-parent-component-app1",
+  "cli": {
+    "analytics": false
+  }
 }

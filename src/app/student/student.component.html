@@ -1,0 +1,31 @@
+<div>
+
+    <p>
+        Enter Name:
+        <input type="text" value={{student.name}} #studname/>
+    </p>
+    
+    <p>
+        Enter Age:
+        <input type="text" value={{student.age}} #studage/>
+    </p>
+
+    
+    <p>
+        Enter Email:
+        <input type="text" value={{student.email}} #studemail/>
+    </p>
+    
+    <p>
+        Enter Date of Birth:
+        <input type="date" value={{student.dob}} #studdob/>
+    </p>
+    
+    <p>
+        <button class="btn btn-primary" (click)="changeStudentData(studname.value,studage.value,studemail.value,studdob.value)">Submit</button>
+        &nbsp;&nbsp;&nbsp;
+        <button class="btn btn-danger" (click)="clearStuentData()">Clear</button>
+    </p>
+
+
+</div>
